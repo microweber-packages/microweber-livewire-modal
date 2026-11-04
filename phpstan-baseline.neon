@@ -1,1 +1,7 @@
 parameters:
+	ignoreErrors:
+		-
+			message: '#^Method MicroweberPackages\\LivewireModal\\Modal\:\:render\(\) should return Illuminate\\View\\View but returns Illuminate\\Contracts\\View\\View\.$#'
+			identifier: return.type
+			count: 1
+			path: src/Modal.php
